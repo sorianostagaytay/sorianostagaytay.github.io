@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Soriano's Tagaytay | Available Dates</title><meta name="description" content="Check open dates at Soriano's Tagaytay Private Villa before you book. Check-in 3:00 PM, check-out 12:00 NN."><meta property="og:title" content="Soriano's Tagaytay | Available Dates"><meta property="og:description" content="See which dates are still open at Soriano's Tagaytay Private Villa."><meta property="og:image" content="https://sorianostagaytay.github.io/logo.png"><meta property="og:type" content="website"><link rel="icon" href="logo.webp" type="image/webp"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Shrikhand&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet"><style>:root{color-scheme:light dark;--bg:light-dark(#ffffff,#111a27);--ink:light-dark(#24364F,#eef2f8);--mute:light-dark(#5f6f86,#a3b1c6);--navy:#24364F;--navy2:light-dark(#24364F,#3a5683);--sun:#F6C945;--org:#FF8A3D;--grn:light-dark(#2E8B6E,#7BC67B);--line:light-dark(#e6e2d3,#24324a);--card:light-dark(#ffffff,#172235);--open:light-dark(#FFF6D6,#1b2a40)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Montserrat,system-ui,sans-serif;overflow-x:clip}
+.hero{position:relative;background:var(--navy);color:#fff;padding:clamp(22px,3.5vw,40px) max(5vw,16px) clamp(70px,9vw,110px);overflow:hidden;text-align:center}
+.hero::before{content:"";position:absolute;left:50%;top:-40%;width:min(900px,140vw);aspect-ratio:1;transform:translateX(-50%);background:radial-gradient(circle,rgba(246,201,69,.22),transparent 60%)}
+.hero svg{position:absolute;left:0;right:0;bottom:0;width:100%;height:clamp(56px,9vw,100px)}
+.logo{position:relative;display:block;width:clamp(180px,30vw,280px);height:auto;margin:0 auto 10px}
+.hero h1{font:400 clamp(30px,4.6vw,48px)/1.05 Shrikhand,Georgia,serif;margin:0 0 10px;text-wrap:balance;position:relative;color:var(--sun);text-shadow:4px 4px 0 var(--org)}
+.hero p{margin:0 auto;max-width:56ch;opacity:.92;position:relative;font-weight:500}
+.wrap{max-width:1100px;margin:0 auto;padding:clamp(20px,3vw,40px) max(4vw,16px) 48px}
+.top{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;margin-bottom:18px}
+.next{font-size:17px;font-weight:600}.next b{background:var(--sun);color:#24364F;padding:2px 10px;border-radius:999px;font-weight:800;white-space:nowrap}
+.nav{display:flex;gap:8px}
+.nav button,.obar button{font:700 16px Montserrat,sans-serif;min-height:44px;min-width:44px;padding:0 14px;border-radius:999px;border:2px solid var(--navy2);background:var(--card);color:var(--ink);cursor:pointer}
+.nav button:disabled{opacity:.3;cursor:default}
+button:focus-visible{outline:3px solid var(--org);outline-offset:2px}
+.months{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:clamp(16px,3vw,36px)}
+.month h2{font:400 26px/1.1 Shrikhand,Georgia,serif;margin:0 0 12px;color:var(--ink)}
+.dow,.grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px}
+.dow span{font-size:13px;color:var(--mute);text-align:center;font-weight:700;padding-bottom:4px}
+.d{aspect-ratio:1/1;min-height:40px;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;font:700 16px Montserrat,sans-serif;border:2px solid transparent;background:var(--open);color:var(--ink);padding:0;position:relative}
+.d small{font-size:10.5px;font-weight:700;line-height:1;margin-top:3px;color:var(--grn)}
+.d.bk{background:var(--navy2) repeating-linear-gradient(135deg,transparent 0 7px,rgba(255,255,255,.07) 7px 14px);color:#fff}
+.d.bk small{color:var(--sun)}
+.d.past{background:transparent;color:var(--mute);opacity:.45}
+.d.past small{display:none}
+.d.today{border-color:var(--org)}
+.d.blank{background:transparent}
+.d.chg::after{content:"";position:absolute;top:5px;right:5px;width:8px;height:8px;border-radius:50%;background:var(--org)}
+.d.anchor{outline:3px solid var(--org);outline-offset:1px}
+button.d{cursor:pointer}
+@media(max-width:420px){.d small{display:none}.d{border-radius:9px}}
+.times{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}.times span{display:flex;flex-direction:column;background:var(--sun);color:#24364F;border-radius:14px;padding:10px 18px;min-width:140px}.times small{font-size:13px;font-weight:700}.times b{font:400 24px/1.1 Shrikhand,Georgia,serif;white-space:nowrap}
+.legend{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:22px;color:var(--mute);font-size:15px;font-weight:600}
+.legend i{display:inline-block;width:18px;height:18px;border-radius:5px;vertical-align:-4px;margin-right:7px}
+.note{margin-top:24px;padding:18px 20px;border-radius:18px;background:var(--navy);color:#fff;font-size:15.5px;max-width:72ch;font-weight:500}
+.note b{color:var(--sun)}
+.upd{margin-top:14px;font-size:13px;color:var(--mute)}
+.obar{display:none;position:sticky;bottom:0;background:var(--card);border-top:3px solid var(--sun);padding:12px max(4vw,16px);gap:10px;flex-wrap:wrap;align-items:center;z-index:5;box-shadow:0 -6px 20px rgba(0,0,0,.1)}
+.obar.on{display:flex}
+.obar .msg{flex:1 1 220px;font-size:15px}
+.obar .msg b{color:var(--ink)}
+.obar button.pri{background:var(--navy);border-color:var(--navy);color:#fff}
+.obar button[aria-pressed=true]{background:var(--sun);border-color:var(--sun);color:#24364F}
+.obar button:disabled{opacity:.4;cursor:default}
+@media(prefers-reduced-motion:no-preference){.d{transition:background .15s,transform .1s}button.d:active{transform:scale(.94)}}
+
+footer{text-align:center;color:var(--mute);font-size:13px;padding:0 16px 32px}
+</style></head><body>
+<header class="hero">
+<img class="logo" src="logo.webp" alt="Soriano's Tagaytay Private Villa logo" width="440" height="339">
+<h1>Check our open dates</h1>
+<p>See which dates are still free at Soriano's Tagaytay before you message us. Dates marked Booked are already reserved.</p>
+<svg viewBox="0 0 1200 100" preserveAspectRatio="none" aria-hidden="true"><path d="M0 64 L170 40 L320 58 L470 20 L560 32 L640 16 L760 50 L900 34 L1040 56 L1200 38 V100 H0Z" fill="#2E5A4A" opacity=".55"/><path d="M0 80 Q300 66 600 78 T1200 74 V100 H0Z" fill="#F6C945" opacity=".9"/><path d="M0 92 Q400 84 800 92 T1200 90 V100 H0Z" style="fill:var(--bg)"/></svg>
+</header>
+<main class="wrap">
+<div class="top"><div class="next" id="next">Loading dates…</div><div class="nav"><button id="prev" aria-label="Previous month">‹</button><button id="nxt" aria-label="Next month">›</button></div></div>
+<div class="months" id="months"></div>
+<div class="times"><span><small>Check-in</small><b>3:00 PM</b></span><span><small>Check-out</small><b>12:00 NN</b></span></div>
+<div class="legend"><span><i style="background:var(--open);border:1.5px solid var(--line)"></i>Open</span><span><i style="background:var(--navy2)"></i>Booked</span><span><i style="border:2px solid var(--org)"></i>Today</span></div>
+<div class="note"><b>Found an open date?</b> Message Soriano's Tagaytay on Facebook with your preferred date and number of guests to reserve it. Each booked date is one overnight stay: check-in 3:00 PM, check-out 12:00 NN the next day. Open dates are first come, first served until confirmed. Coffee Homes Subdivision, Tagaytay City.</div>
+<div class="upd" id="upd"></div>
+</main>
+<footer>Soriano's Tagaytay Private Villa · Coffee Homes Subdivision, Tagaytay City</footer>
+<script>{
+const MN=['January','February','March','April','May','June','July','August','September','October','November','December'];
+const DW=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+const pad=n=>String(n).padStart(2,'0');
+const iso=d=>d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());
+const now=new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Manila'}));
+const today=new Date(now.getFullYear(),now.getMonth(),now.getDate());
+const T=iso(today);
+const first=new Date(today.getFullYear(),today.getMonth(),1);
+const last=new Date(today.getFullYear(),today.getMonth()+12,1);
+let view=new Date(first),booked=new Set(),updated='';
+const $=id=>document.getElementById(id);
+const nMonths=()=>innerWidth>=720?2:1;
+function monthHTML(y,m){
+  const start=new Date(y,m,1).getDay(),days=new Date(y,m+1,0).getDate();
+  let h='<section class="month"><h2>'+MN[m]+' '+y+'</h2><div class="dow">'+DW.map(d=>'<span>'+d+'</span>').join('')+'</div><div class="grid">';
+  for(let i=0;i<start;i++)h+='<div class="d blank" aria-hidden="true"></div>';
+  for(let d=1;d<=days;d++){
+    const k=y+'-'+pad(m+1)+'-'+pad(d),past=k<T,bk=booked.has(k);
+    const c='d'+(past?' past':bk?' bk':'')+(k===T?' today':'');
+    const lab=MN[m]+' '+d+', '+(past?'past':bk?'Booked':'Open');
+    h+='<div class="'+c+'" role="img" aria-label="'+lab+'">'+d+(past?'':'<small>'+(bk?'Booked':'Open')+'</small>')+'</div>';
+  }
+  return h+'</div></section>';
+}
+function render(){
+  const n=nMonths();let h='';
+  for(let i=0;i<n;i++){const d=new Date(view.getFullYear(),view.getMonth()+i,1);if(d>=last)break;h+=monthHTML(d.getFullYear(),d.getMonth())}
+  $('months').innerHTML=h;
+  $('prev').disabled=view<=first;
+  $('nxt').disabled=new Date(view.getFullYear(),view.getMonth()+n,1)>=last;
+  let nx=null;const d=new Date(today);
+  for(let i=0;i<366;i++){if(!booked.has(iso(d))){nx=new Date(d);break}d.setDate(d.getDate()+1)}
+  const el=$('next');el.textContent='';
+  if(nx){el.append('Next open date: ');const b=document.createElement('b');b.textContent=DW[nx.getDay()]+', '+MN[nx.getMonth()]+' '+nx.getDate();el.append(b)}
+  else el.textContent='Fully booked for the next 12 months.';
+  if(/^\d{4}-\d{2}-\d{2}$/.test(updated)){const [y,m,dd]=updated.split('-').map(Number);$('upd').textContent='Last updated '+MN[m-1]+' '+dd+', '+y+'.'}
+}
+$('prev').addEventListener('click',()=>{view=new Date(view.getFullYear(),view.getMonth()-1,1);render()});
+$('nxt').addEventListener('click',()=>{view=new Date(view.getFullYear(),view.getMonth()+1,1);render()});
+let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(render,120)});
+render();
+fetch('booked.json?v='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(s=>{
+  booked=new Set((s.booked||[]).filter(x=>/^\d{4}-\d{2}-\d{2}$/.test(x)));updated=String(s.updated||'');render();
+}).catch(()=>{$('next').textContent='Could not load dates. Please refresh the page.'});
+}</script>
+</body></html>
